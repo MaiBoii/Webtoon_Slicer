@@ -9,8 +9,7 @@ class RegionSelector(QLabel):
         super().__init__(parent)
 
         self.scale_factor = 1.0 
-        # 포커스 받아야 키 이벤트 가능
-        self.setFocusPolicy(Qt.StrongFocus)  # 포커스 가능하게
+        self.setFocusPolicy(Qt.StrongFocus) 
         self.on_save_callback = on_save_callback
 
         self.setMouseTracking(True)

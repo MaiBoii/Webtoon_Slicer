@@ -1,0 +1,22 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*.pyo
+
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.webp
+*.WEBP
+
+# 기타 임시 파일
+.DS_Store
+Thumbs.db
+
+# 환경 설정 파일
+.env
+
+test_images/
