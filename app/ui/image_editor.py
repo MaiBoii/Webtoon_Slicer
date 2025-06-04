@@ -1,9 +1,8 @@
 # image_editor.py
 from PySide6.QtWidgets import (
-    QDialog, QLabel, QVBoxLayout, QScrollArea, QHBoxLayout, QPushButton, QFileDialog, QMessageBox,QSizePolicy
-
+    QDialog, QVBoxLayout, QScrollArea, QHBoxLayout, QPushButton, QFileDialog, QMessageBox,QSizePolicy
 )
-from PySide6.QtCore import Qt,QRect
+from PySide6.QtCore import Qt
 from PySide6.QtGui import QPixmap, QWheelEvent, QKeyEvent
 from .region_selector import RegionSelector
 from app.core.slicer import slice_image
